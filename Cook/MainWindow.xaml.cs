@@ -16,9 +16,19 @@ namespace Cook
     /// </summary>
     public partial class MainWindow : Window
     {
+        int zaKlik = 1;  // toto později zvýší upgrade
+
         public MainWindow()
         {
             InitializeComponent();
+            Pocet_Susenek_kliknuti.Text = zaKlik.ToString();  // zobrazí výchozí hodnotu
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int celkem = int.Parse(Pocet_susenek.Text);
+            celkem += zaKlik;
+            Pocet_susenek.Text = celkem.ToString();
         }
     }
 }

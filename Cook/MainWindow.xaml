@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Center" Height="324" Width="336" Click="Button_Click" Margin="434,0,0,0"/>
+        <TextBox x:Name ="Pocet_susenek" HorizontalAlignment="Left" Margin="47,86,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="150" Height="19"/>
+        <TextBox x:Name="Pocet_susenek_text" HorizontalAlignment="Left" Margin="47,63,0,0" TextWrapping="Wrap" Text="Pocet susenek" VerticalAlignment="Top" Width="150" Height="18"/>
+        <TextBox x:Name="Pocet_susenek_kliknuti_text" HorizontalAlignment="Left" Margin="47,127,0,0" TextWrapping="Wrap" Text="Pocet susenek za kliknuti" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="Pocet_susenek_sekundu_text" HorizontalAlignment="Left" Margin="47,188,0,0" TextWrapping="Wrap" Text="Pocet susenek za sekundu" VerticalAlignment="Top" Width="150" RenderTransformOrigin="0.509,1.32"/>
+        <TextBox x:Name ="Pocet_Susenek_kliknuti" HorizontalAlignment="Left" Margin="47,150,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="150" Height="19"/>
+        <TextBox x:Name ="Pocet_Susenek_sekunda" HorizontalAlignment="Left" Margin="47,217,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="150" Height="19"/>
 
     </Grid>
 </Window>
+
