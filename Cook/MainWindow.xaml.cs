@@ -59,5 +59,11 @@ namespace Cook
             Pocet_Susenek_sekunda.Text = game.CookiesPerSecond.ToString();
             Celkovy_Pocet_Kliknuti.Text = game.TotalClicks.ToString();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Shop shop = new Shop(game);
+            shop.Show();
+        }
     }
 }
