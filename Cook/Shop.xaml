@@ -1,0 +1,24 @@
+﻿<Window x:Class="Cook.Shop"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cook"
+        mc:Ignorable="d"
+        Title="Shop" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" x:Name="Upgrade1" Margin="88,78,0,0" TextWrapping="Wrap" Text="Lepsi kurzor" VerticalAlignment="Top" Height="18" Width="74"/>
+        <Button Content="" HorizontalAlignment="Left" x:Name="Upgbutton1" Margin="101,113,0,0" VerticalAlignment="Top" Width="47"/>
+        <TextBlock HorizontalAlignment="Left" x:Name="Upgrade2" Margin="179,78,0,0" TextWrapping="Wrap" Text="Dvojite kliknuti" VerticalAlignment="Top" Height="18" Width="89"/>
+        <TextBlock HorizontalAlignment="Left" x:Name="Upgrade3" Margin="276,78,0,0" TextWrapping="Wrap" Text="Babicka pekarka" VerticalAlignment="Top" Height="18" Width="97"/>
+        <TextBlock HorizontalAlignment="Left" x:Name="Upgrade4" Margin="396,78,0,0" TextWrapping="Wrap" Text="Mala pekarna" VerticalAlignment="Top" Height="18" Width="80"/>
+        <TextBlock HorizontalAlignment="Left" x:Name="Upgrade5" Margin="517,78,0,0" TextWrapping="Wrap" Text="Tovarna na susenky" VerticalAlignment="Top" Height="18" Width="107"/>
+        <TextBox HorizontalAlignment="Left" x:Name="Susenky" Margin="65,388,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Celkem susenek" HorizontalAlignment="Left" Margin="80,356,0,0" VerticalAlignment="Top"/>
+        <Button Content="" HorizontalAlignment="Left" x:Name="Upgbutton2" Margin="200,113,0,0" VerticalAlignment="Top" Width="47"/>
+        <Button Content="" HorizontalAlignment="Left" x:Name="Upgbutton3" Margin="301,113,0,0" VerticalAlignment="Top" Width="47"/>
+        <Button Content="" HorizontalAlignment="Left" x:Name="Upgbutton4" Margin="412,113,0,0" VerticalAlignment="Top" Width="48"/>
+        <Button Content="" HorizontalAlignment="Left" x:Name="Upgbutton5" Margin="546,113,0,0" VerticalAlignment="Top" Width="48"/>
+
+    </Grid>
+</Window>

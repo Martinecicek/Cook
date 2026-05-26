@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Cook
 {
     /// <summary>
-    /// Interakční logika pro Window1.xaml
+    /// Interakční logika pro Shop.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Shop : Window
     {
-        public Window1()
+        public Shop()
         {
             InitializeComponent();
         }
