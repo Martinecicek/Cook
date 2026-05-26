@@ -39,13 +39,11 @@ namespace Cook
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int celkemSusenek = int.Parse(Pocet_susenek.Text);
-            celkemSusenek += zaKlik;
-            Pocet_susenek.Text = celkemSusenek.ToString();
+            game.Cookies += game.CookiesPerClick;
+            game.TotalClicks += 1;
+            AktualizujUI();
 
-            int celkemS = int.Parse(Celkovy_Pocet_Kliknuti.Text);
-            celkemS += 1;
-            Celkovy_Pocet_Kliknuti.Text = celkemS.ToString();
+          
         }
         private void Timer_Tick(object sender, EventArgs e)
         {
