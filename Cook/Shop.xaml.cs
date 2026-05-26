@@ -14,14 +14,14 @@ using System.Windows.Shapes;
 
 namespace Cook
 {
-    /// <summary>
-    /// Interakční logika pro Shop.xaml
-    /// </summary>
     public partial class Shop : Window
     {
-        public Shop()
+        GameState game;
+
+        public Shop(GameState game)
         {
             InitializeComponent();
+            this.game = game; 
         }
     }
 }
